@@ -67,9 +67,10 @@ body {
 }
 
 .top-home img {
-    max-width: 10rem;
-    max-height: 10rem;
-    border-radius: 3rem;
+    max-width: 90%;
+    width: 20rem;
+    height: auto;
+    border-radius: 5rem;
     margin-right: 2rem;
 }
 
@@ -176,31 +177,4 @@ body {
 .section-title {
     font-weight: bold;
     padding-top: 3rem;
-}
-
-box-title {
-    margin-top: 0.7rem;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-big-description {
-    margin-top: 0.7rem;
-    font-size: 1.5rem;
-    color: black;
-    text-align: center;
-}
-
-small-description {
-    margin-top: 0.7rem;
-    font-size: 1.1rem;
-    color: black;
-    text-align: center;
-}
-
-box-icon {
-    margin: 0.7rem;
-    width: 40%;
-    align-items: center;
 }
