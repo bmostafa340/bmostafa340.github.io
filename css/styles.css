@@ -41,10 +41,18 @@ body {
     color :#6ed87f;
 }
 
-#nav-logo img {
+.left-nav img {
     height: 1.5em;
-    padding-left: 0.1em;
-    padding-right: 0.75em;
+    padding-left: 0.75em;
+    transition: transform .2s;
+}
+
+.left-nav img:hover {
+    transform: scale(1.5);
+}
+
+#nav-logo {
+    padding-right: 0.5em;
 }
 
 /* Home */
