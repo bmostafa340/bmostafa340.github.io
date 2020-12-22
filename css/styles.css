@@ -68,9 +68,9 @@ body {
 
 .top-home img {
     max-width: 90%;
-    width: 20rem;
+    width: 25rem;
     height: auto;
-    border-radius: 5rem;
+    border-radius: 10rem;
     margin-right: 2rem;
 }
 
