@@ -1,31 +1,142 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="css/styles.css">
-
-    <link rel="icon" type="image/png" sizes="16x16" href="logos/personal.png">
-
-    <title>Basel Mostafa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="imgs/logo.png">
+  <title>Basel Mostafa</title>
 </head>
 
 <body>
 
-  <div class="navbar">
-    <a href="#home"><img src="logos/logo.png" alt="Logo"> Basel Mostafa</a>
-    <nav class="topnav">
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    </nav>
+  <nav class="top-nav">
+    <div class="left-nav">
+      <a id="nav-logo" href="#home"><img src="imgs/logo.png" alt="Logo">Basel Mostafa</a>
+    </div>
+    <div class="right-nav">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contacts">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="top-home">
+      <img src="imgs/portrait.png" alt="Portrait">
+      <h2>Hi, I'm<br />Basel Mostafa</h2>
+    </div>
+    <div class="bottom-home">
+      <h4>Computer Science Student at Caltech</h4>
+    </div>
+  </section>
+
+  <section id="skills" class="section-container">
+    <h3 class="section-title">Selected Skills</h3>
+    <div class="card-container">
+      <div id="cs-box" class="card">
+        <div class="default">
+          <h3>Computer Science</h3>
+          <img src="icons/terminal.svg">
+        </div>
+        <div class="hidden">
+          <p>Data Structures, Algorithms, Complexity Theory, Graph Theory, OOP (Java/C/Python), Procedural Programming
+            (C), Functional Programming (OCaml)</p>
+        </div>
+      </div>
+      <div id="ml-box" class="card">
+        <div class="default">
+          <h3>Machine Learning</h3>
+          <img src="icons/graph.svg">
+        </div>
+        <div class="hidden">
+          <p>Generalization, Overfitting, Regularization, Validation, Linear Regression, Logistic Regression, PLA, DNN,
+            SVM, Kernel Methods</p>
+        </div>
+      </div>
+      <div id="sci-prog-box" class="card">
+        <div class="default">
+          <h3>Scientific Programming</h3>
+          <img src="icons/graph-up.svg">
+        </div>
+        <div class="hidden">
+          <p>Data Manipulation (NumPy, SciPy, scikit-learn, Mathematica), Data Visualization (Matplotlib)</p>
+        </div>
+      </div>
+      <div id="game-dev-box" class="card">
+        <div class="default">
+          <h3>Game Development</h3>
+          <img src="icons/controller.svg">
+        </div>
+        <div class="hidden">
+          <p>Unity3D, C#, JavaScript, Game Design, Multithreading</p>
+        </div>
+      </div>
+      <div id="web-dev-box" class="card">
+        <div class="default">
+          <h3>Web Development</h3>
+          <img src="icons/globe.svg">
+        </div>
+        <div class="hidden">
+          <p>HTML, CSS, JavaScript, Figma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-container">
+    <h3 class="section-title">Selected Skills</h3>
+    <div class="card-container">
+      <div id="cs-box" class="card">
+        <div class="default">
+          <h3>Computer Science</h3>
+          <img src="icons/terminal.svg">
+        </div>
+        <div class="hidden">
+          <p>Data Structures, Algorithms, Complexity Theory, Graph Theory, OOP (Java/C/Python), Procedural Programming
+            (C), Functional Programming (OCaml)</p>
+        </div>
+      </div>
+      <div id="ml-box" class="card">
+        <div class="default">
+          <h3>Machine Learning</h3>
+          <img src="icons/graph.svg">
+        </div>
+        <div class="hidden">
+          <p>Generalization, Overfitting, Regularization, Validation, Linear Regression, Logistic Regression, PLA, DNN,
+            SVM, Kernel Methods</p>
+        </div>
+      </div>
+      <div id="sci-prog-box" class="card">
+        <div class="default">
+          <h3>Scientific Programming</h3>
+          <img src="icons/graph-up.svg">
+        </div>
+        <div class="hidden">
+          <p>Data Manipulation (NumPy, SciPy, scikit-learn, Mathematica), Data Visualization (Matplotlib)</p>
+        </div>
+      </div>
+      <div id="web-dev-box" class="card">
+        <div class="default">
+          <h3>Web Development</h3>
+          <img src="icons/globe.svg">
+        </div>
+        <div class="hidden">
+          <p>HTML, CSS, JavaScript, Figma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="contacts">
+
   </div>
 
-  
+  <script type="text/javascript" src="js/scripts.js"></script>
 
-  <script src="js/scripts.js"></script>
 </body>
 
 </html>
