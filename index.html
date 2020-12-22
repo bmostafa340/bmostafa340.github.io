@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="16x16" href="imgs/logo.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   <title>Basel Mostafa</title>
 </head>
 
@@ -14,8 +16,8 @@
 
   <nav class="top-nav">
     <div class="left-nav">
-      <img src="icons/facebook.svg">
-      <img src="icons/linkedin.svg">
+      <a href="https://www.facebook.com/profile.php?id=100010074971918"><img src="icons/facebook.svg" class="media-icon"></a>
+      <a href="https://www.linkedin.com/in/basel-mostafa-075ab6176/"><img src="icons/linkedin.svg" class="media-icon"></a>
       <a href="#home"><img id="nav-logo" src="imgs/logo.png" alt="Logo">Basel Mostafa</a>
     </div>
     <div class="right-nav">
@@ -98,7 +100,8 @@
           <img src="icons/pistol.svg">
         </div>
         <div class="hidden">
-          <p>A JavaFX-based top-down survival game, with tower defense and power ups thrown into the mix. Developed in collaboration with Elliot Van Huijgevoort, with help from Gokul Nair.</p>
+          <p>A JavaFX-based top-down survival game, with tower defense and power ups thrown into the mix. Developed in
+            collaboration with Elliot Van Huijgevoort, with help from Gokul Nair.</p>
           <a href="https://youtu.be/HLsgWwO3b04" class="button">View</a>
         </div>
       </div>
@@ -108,7 +111,9 @@
           <img src="icons/sunset.svg">
         </div>
         <div class="hidden">
-          <p>A timing-based ball shooting game, set in a sky-like setting. The player must use precise timing to shoot a ball into a moving target. The player can miss three times, with the number of remaining misses indicated by the number of red balls remaining on the platforms.</p>
+          <p>A timing-based ball shooting game, set in a sky-like setting. The player must use precise timing to shoot a
+            ball into a moving target. The player can miss three times, with the number of remaining misses indicated by
+            the number of red balls remaining on the platforms.</p>
           <a href="https://youtu.be/MZltYKOmafg" class="button">View</a>
         </div>
       </div>
@@ -118,7 +123,8 @@
           <img src="icons/fizz-buzz.svg">
         </div>
         <div class="hidden">
-          <p>A voice-controlled simulation of the infamous Fizz Buzz program. Alexa takes the odd numbers, and the player takes the even numbers. Alexa gracefully handles any spoken dialogue.</p>
+          <p>A voice-controlled simulation of the infamous Fizz Buzz program. Alexa takes the odd numbers, and the
+            player takes the even numbers. Alexa gracefully handles any spoken dialogue.</p>
           <a href="https://youtu.be/53zcked7Obc" class="button">View</a>
         </div>
       </div>
@@ -128,7 +134,9 @@
           <img src="icons/rubiks-cube.svg">
         </div>
         <div class="hidden">
-          <p>An optimal 2x2x2 Rubiks Cube solver that uses clever optimizations to reduce the search space by over 2 billion fold relative to naive BFS. A corners first 3x3x3 Rubiks Cube solver that averages ~150 quarter turn solutions in a few seconds in a VM with 10 GB of RAM.</p>
+          <p>An optimal 2x2x2 Rubiks Cube solver that uses clever optimizations to reduce the search space by over 2
+            billion fold relative to naive BFS. A corners first 3x3x3 Rubiks Cube solver that averages ~150 quarter turn
+            solutions in a few seconds in a VM with 10 GB of RAM.</p>
           <a href="https://youtu.be/xKyl6dNQmsI" class="button">View</a>
         </div>
       </div>
@@ -138,7 +146,9 @@
           <img src="icons/compiler.svg">
         </div>
         <div class="hidden">
-          <p>A compiler for a simplified version of BASIC, optimized to compiler in O(n) time on the parse tree size, to pre-evaluate expressions of constants, to replace multiplication with bit shifts where possible, and to maximize register use.</p>
+          <p>A compiler for a simplified version of BASIC, optimized to compiler in O(n) time on the parse tree size, to
+            pre-evaluate expressions of constants, to replace multiplication with bit shifts where possible, and to
+            maximize register use.</p>
           <a href="https://youtu.be/EG6kFTnw4Ao" class="button">View</a>
         </div>
       </div>
@@ -146,10 +156,17 @@
   </section>
 
   <div id="contacts">
-    <p>I'd love to hear from you!</p>
-    <p>Contact me at bmostafa11@gmail.com</p>
-    <p>Check out my social media to learn more about me, or check out my resume.</p>
-    <a href="docs/resume.pdf" class="button">View Resume</a>
+    <h1>I'd love to hear from you!</h1>
+    <h2>Contact me at bmostafa11@gmail.com</h2>
+    <br />
+    <h2>Check out my social media.</h2>
+    <div>
+      <a href="https://www.facebook.com/profile.php?id=100010074971918"><img src="icons/facebook.svg" class="media-icon"></a>
+      <a href="https://www.linkedin.com/in/basel-mostafa-075ab6176/"><img src="icons/linkedin.svg" class="media-icon"></a>
+    </div>
+    <br /><br /><br />
+    <h2>And check out my resume.</h2>
+    <a href="docs/resume.pdf" id="resume-button">Resume</a>
   </div>
 
   <script type="text/javascript" src="js/scripts.js"></script>
